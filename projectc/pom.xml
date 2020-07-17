@@ -21,4 +21,14 @@
         </dependency>
     </dependencies>
 
+    <scm>
+        <developerConnection>scm:git:https://github.com/BearKid/explore-bump-maven-version.git</developerConnection>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>lwb-local-release</id>
+            <name>lwb release for local test</name>
+            <url>http://127.0.0.1:8081/repository/lwb-local-release/</url>
+        </repository>
+    </distributionManagement>
 </project>
