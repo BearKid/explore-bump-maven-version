@@ -4,7 +4,7 @@
 
     <groupId>com.lwb.build</groupId>
     <artifactId>project-a</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <build>
         <plugins>
@@ -18,7 +18,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/BearKid/explore-bump-maven-version.git</developerConnection>
-      <tag>project-a-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
     <distributionManagement>
         <repository>
