@@ -39,5 +39,10 @@
             <name>lwb release for local test</name>
             <url>http://127.0.0.1:8081/repository/lwb-local-release/</url>
         </repository>
+        <snapshotRepository>
+            <id>lwb-local-snapshot</id>
+            <name>lwb snapshot for local test</name>
+            <url>http://127.0.0.1:8081/repository/lwb-local-snapshot/</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>
