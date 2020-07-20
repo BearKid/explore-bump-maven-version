@@ -4,13 +4,13 @@
 
     <groupId>com.lwb.build</groupId>
     <artifactId>project-c</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
             <groupId>com.lwb.build</groupId>
             <artifactId>project-a</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>com.lwb.build</groupId>
