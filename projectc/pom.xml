@@ -4,7 +4,7 @@
 
     <groupId>com.lwb.build</groupId>
     <artifactId>project-c</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 
     <dependencies>
         <dependency>
@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.lwb.build</groupId>
             <artifactId>project-b</artifactId>
-            <version>1.0.2-RC1</version>
+            <version>1.0.4</version>
         </dependency>
     </dependencies>
 
