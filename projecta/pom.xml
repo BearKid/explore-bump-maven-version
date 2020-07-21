@@ -4,7 +4,7 @@
 
     <groupId>com.lwb.build</groupId>
     <artifactId>project-a</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-RC1</version>
 
     <build>
         <plugins>
