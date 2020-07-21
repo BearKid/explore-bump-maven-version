@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 projectRootPath=$1
 newVersion=$2
 
@@ -11,5 +12,16 @@ if [[ -z ${newVersion} ]]; then
 	exit 1
 fi
 
-mvn versions:use-latest-versions versions:set -DnewVersion=${newVersion}
-git commit
+cd "${projectRootPath}" || exit 1
+
+# modify pom to update dependencies
+mvn versions:use-latest-versions versions:set -DnewVersion="${newVersion}"
+mvn clean complie || exit 1
+
+# commit to scm
+git add pom.xml
+git commit -m '[release] update dependencies to latest version, bump project version'
+git tag "${newVersion}"
+
+# release artifact
+#mvn deploy
