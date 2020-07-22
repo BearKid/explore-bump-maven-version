@@ -24,7 +24,7 @@ cd "${projectRootPath}" || exit 1
 mvn versions:use-latest-versions
 echo '【注意】已修改项目的依赖为最新版本，开始验证是否可编译通过。如果编译不通过，请手动处理编译问题或回滚。'
 mvn clean compile || exit 1
-git add pom.xml
+git add -u
 git commit -m '[release] update dependencies to latest version'
 
 # 2. tagging milestone (git tag)

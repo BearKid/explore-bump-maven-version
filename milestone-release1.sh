@@ -27,7 +27,7 @@ git commit -m '[release] update dependencies to latest version'
 # 2. tagging milestone
 ### 2.1 pom project version
 mvn versions:set
-git add pom.xml
+git add -u
 git commit --amend -m '[release] update dependencies to latest version, bump project version'
 
 ### 2.2 git tag
