@@ -14,9 +14,9 @@
     </scm>
 
     <modules>
-        <module>../projecta</module>
-        <module>../projectb</module>
-        <module>../projectc</module>
+        <module>../project-a</module>
+        <module>../project-b</module>
+        <module>../project-c</module>
     </modules>
 
     <build>
