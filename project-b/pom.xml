@@ -3,8 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lwb.build</groupId>
-    <artifactId>project-c</artifactId>
-    <version>1.0.4</version>
+    <artifactId>project-b</artifactId>
+    <version>${revision}</version>
+
+    <properties>
+        <revision>0-SNAPSHOT</revision>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -12,15 +16,11 @@
             <artifactId>project-a</artifactId>
             <version>1.0.3</version>
         </dependency>
-        <dependency>
-            <groupId>com.lwb.build</groupId>
-            <artifactId>project-b</artifactId>
-            <version>1.0.4</version>
-        </dependency>
     </dependencies>
 
     <build>
-        <plugins></plugins>
+        <plugins>
+        </plugins>
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/BearKid/explore-bump-maven-version.git</developerConnection>
